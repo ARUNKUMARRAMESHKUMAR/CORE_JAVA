@@ -90,6 +90,32 @@ System.out.println(age+" age is not correct");
 }		 
 
 
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+	import java.util.Scanner;
+class Main {
+    public static void main(String[] args) {
+        		System.out.print("Enter Any Number :");
+		Scanner value=new Scanner(System.in);
+		int n=value.nextInt();
+		if(n<9 && n>0)
+		{
+		   System.out.print(n+" is one digit number");
+		}
+		if(n>9 && n<99)
+		{
+			System.out.print(n+" is two digit number");
+		}
+		if(n>99 && n<999){
+		    System.out.print(n+" is three digit number");
+		}
+		if(n>999){
+		    System.out.print(n+" is above three digit number");
+		}
+	}
+}
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
