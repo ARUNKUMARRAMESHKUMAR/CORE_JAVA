@@ -69,5 +69,23 @@ class main{
 	}
 
 
-
 --------------------------------------------------------------------------------------------------------------------------------
+
+import java.util.Scanner;
+public class virat {
+
+	public static void main (String args [])
+	{
+		Scanner input=new Scanner(System.in);
+		System.out.println(" your choice RCB is win or lose");
+		String value=input.nextLine();
+		if(value.equals(value))
+		{
+			System.out.println(" esala cup namde ");
+		}
+		else
+		{
+			System.out.println(" RCB lose ");
+		}
+	}
+}
